@@ -40,3 +40,12 @@ text-shadow: 0 2px 3px #000;
 #logo { /* (select elements with the id="logo")*/
 background-color: aqua;
 }
+
+/* Descendant Selector */
+#logo h1 { /* selects <h1> if they're inside the element with the id = logo */
+font-family: 'Clicker Script', cursive;
+}
+
+#logo h2 {
+font-family: 'Elsie Swash Script', cursive; 
+}
