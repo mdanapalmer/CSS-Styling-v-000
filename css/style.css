@@ -34,3 +34,9 @@ font: bold 2.6em 'Elsie Swash Caps', cursive;
 color: white;
 text-shadow: 0 2px 3px #000;
 }
+
+/* ID selector (apply to one unique element per page) */
+
+#logo { /* (select elements with the id="logo")*/
+background-color: teal;
+}
