@@ -12,7 +12,7 @@ selector {
 
 /* Type selector */
 
-p {/* select all <p> elemensts*/
+p {/* select all <p> elements*/
   font-size: 1em; /* ?px or ?pt, or ?%, ?em */
   line-height: 1.5em;
 }
@@ -25,4 +25,12 @@ figcaption {
   /*font: normal 0.75em/1.5em, Georgia, "New Times Roman", serif;*/
   color: #777;
   text-align: right;
+}
+
+/* class selector (applied to as many elements as you'd like) */
+
+.milk-text { /* select elements with a class attribute = milk-text */
+font: bold 2.6em 'Elsie Swash Caps', cursive;
+color: white;
+text-shadow: 0 2px 3px #000;
 }
