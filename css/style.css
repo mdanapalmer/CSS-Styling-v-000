@@ -1,1 +1,16 @@
 /* This is a comment */
+
+/* CSS Syntax:
+
+selector {
+  property: value;
+}
+
+*/
+
+/* Type selector */
+
+p {/* select all <p> elemensts*/
+  font-size: 1em; /* ?px or ?pt, or ?%, ?em */
+  line-height: 1.5em;
+}
